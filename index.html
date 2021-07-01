@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="qc-slider">
+        <div class="qc-slider-wrapper">
+            <div class="qc-slider-box">
+                <select name="" id="select-state" onchange="getProvidersDataOnChange()">
+                </select>
+
+                <select name="" id="select-provider" onchange="getFanDataOnChange()">
+                </select>
+
+                <select name="" id="select-fan" onchange="getFanModelOnChange()">
+                </select>
+
+                <select name="" id="select-fan-models" onchange="getFanWattsOnChange()">
+                </select>
+
+                <!-- This is the Slider Section -->
+
+                <div id="slider-and-results-wrapper">
+                    <!-- This is the Slider -->
+                    <div class="slider-box">
+                        <!-- This is the Hours Section -->
+                        <div class="hours-box">
+                            <h2 class="hours-title">Hours</h2>
+                            <h3 id="slider-hours-results"> 0</h3>
+                        </div>
+                        <!-- This is the Slider Input -->
+                        <div class="slider-wrapper">
+                            <input type="range" name="silder-hours-range" id="slider-hours-range" min="0" max="12" value="0">
+                        </div>
+                    </div>
+
+
+                    <!-- This is the Day Results -->
+                    <div class="day-box">
+                        <h2 class="day-title">Day</h2>
+                        <h3 id="slider-day-results">$0</h3>
+                    </div>
+                    <!-- This is the Month Results -->
+                    <div class="month-box">
+                        <h2 class="month-title">Month</h2>
+                        <h3 id="slider-month-results">$0</h3>
+                    </div>
+                    <!-- This is the Year Results -->
+                    <div class="year-box">
+                        <h2 class="year-title">Year</h2>
+                        <h3 id="slider-year-results">$0</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
