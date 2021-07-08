@@ -57,6 +57,7 @@ function getFanDataOnChange() {
 
                     output += `<option value="${fans.fan}">${fans.fan}</option>`;
 
+
                 });
                 document.getElementById("select-fan").innerHTML = output;
             })
@@ -87,23 +88,59 @@ function getFanModelOnChange() {
     }
 }
 
-// This is to get the Fan Watts onChange
 
-function getFanWattsOnChange() {
 
-    var fanModelType = document.getElementById("select-fan-models").value;
+function sliderOnChange() {
+    var sliderHoursRange = document.getElementById("slider-hours-range");
+    var sliderHoursRangeResults = document.getElementById("slider-hours-results");
+    var sliderDayRangeResults = document.getElementById("slider-day-results");
+    var sliderMonthResults = document.getElementById("slider-month-results");
+    var sliderYearResults = document.getElementById("slider-year-results");
     document.getElementById("slider-and-results-wrapper").style.display = "flex";
-    document.getElementById("select-fan-models").style.display = "block";
 
-    fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
-        .then((res) => res.json())
-        .then((data) => {
-            let output = '<option class="top-option">Please Select a Model</option>';
-            data.filter(function(fanModel) {
+    // var fanSelected = document.getElementById("select-fan").value;
+    // var providerSelected = document.getElementById("select-provider").value;
 
-                if (fanModelType === fanModel.model) {
-                    console.log(fanModel.watts);
-                }
-            });
-        })
+    // let arr = [];
+    // let allData;
+
+    // allData = () => {
+    //     fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             arr = data.filter(info => {
+    //                 if (fanSelected === info.model) {
+    //                     return info;
+    //                 }
+    //             })
+    //         }).catch(err => {
+    //             console.log(err);
+    //         })
+    // };
+
+    // allData();
+
 }
+
+
+
+var fanSelected = document.getElementById("select-fan").value;
+var providerSelected = document.getElementById("select-provider").value;
+
+let arr = [];
+
+let allData = () => {
+    fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
+        .then(res => res.json())
+        .then(data => {
+            arr = data.filter(info => {
+                if (fanSelected === info.model) {
+                    return info;
+                }
+            })
+        }).catch(err => {
+            // console.log(err);
+        })
+};
+
+allData();
