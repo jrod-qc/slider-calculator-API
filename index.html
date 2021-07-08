@@ -23,7 +23,7 @@
                 <select name="" id="select-fan" onchange="getFanModelOnChange()">
                 </select>
 
-                <select name="" id="select-fan-models" onchange="getFanWattsOnChange()">
+                <select name="" id="select-fan-models" onchange="sliderOnChange()">
                 </select>
 
                 <!-- This is the Slider Section -->
@@ -35,10 +35,12 @@
                         <div class="hours-box">
                             <h2 class="hours-title">Hours</h2>
                             <h3 id="slider-hours-results"> 0</h3>
+                            <p id="fanWatts"></p>
+                            <p id="providerPrice"></p>
                         </div>
                         <!-- This is the Slider Input -->
                         <div class="slider-wrapper">
-                            <input type="range" name="silder-hours-range" id="slider-hours-range" min="0" max="12" value="0">
+                            <input type="range" name="slider-hours-range" id="slider-hours-range" min="0" max="12" value="0">
                         </div>
                     </div>
 
@@ -63,7 +65,8 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script async src="script.js"></script>
+    <script async src="testing.js"></script>
 </body>
 
 </html>

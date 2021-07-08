@@ -36,8 +36,7 @@ body {
 
 #select-state,
 #select-provider,
-#select-stealth-model,
-#select-trident-model {
+#select-stealth-model {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -71,12 +70,6 @@ body {
     display: none;
     flex-wrap: wrap;
     width: 100%;
-}
-
-.selection-box-title {
-    width: 100%;
-    text-align: center;
-    color: rgb(41, 41, 41);
 }
 
 .hours-box {
@@ -142,16 +135,6 @@ body {
 
 #slider-hours-range {
     width: 80%;
-}
-
-#fan-selection {
-    width: 80%;
-    padding: 10px;
-    font-size: 1em;
-    font-weight: 700;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    border: none;
 }
 
 
