@@ -98,49 +98,46 @@ function sliderOnChange() {
     var sliderYearResults = document.getElementById("slider-year-results");
     document.getElementById("slider-and-results-wrapper").style.display = "flex";
 
-    // var fanSelected = document.getElementById("select-fan").value;
-    // var providerSelected = document.getElementById("select-provider").value;
 
-    // let arr = [];
-    // let allData;
+    var fanSelected = document.getElementById("select-fan").value;
+    var providerSelected = document.getElementById("select-provider").value;
 
-    // allData = () => {
-    //     fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             arr = data.filter(info => {
-    //                 if (fanSelected === info.model) {
-    //                     return info;
-    //                 }
-    //             })
-    //         }).catch(err => {
-    //             console.log(err);
-    //         })
-    // };
+    var theData = [];
 
-    // allData();
+    fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
+        .then(response => response.json())
+        .then(data => {
+            data.filter(fanData => {
+                if (fanSelected === fanData.model) {
+                    theData.push(fanData[watts]);
+                }
+            })
+        })
+
+    console.log(theData);
 
 }
 
 
 
-var fanSelected = document.getElementById("select-fan").value;
-var providerSelected = document.getElementById("select-provider").value;
 
-let arr = [];
 
-let allData = () => {
-    fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
-        .then(res => res.json())
-        .then(data => {
-            arr = data.filter(info => {
-                if (fanSelected === info.model) {
-                    return info;
-                }
-            })
-        }).catch(err => {
-            // console.log(err);
-        })
-};
 
-allData();
+
+// let arr = [];
+
+// let allData = () => {
+//     fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
+//         .then(res => res.json())
+//         .then(data => {
+//             arr = data.filter(info => {
+//                 if (fanSelected === info.model) {
+//                     return info;
+//                 }
+//             })
+//         }).catch(err => {
+//             // console.log(err);
+//         })
+// };
+
+// allData();
