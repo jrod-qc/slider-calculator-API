@@ -1,23 +1,24 @@
-// var sliderHoursRange = document.getElementById("slider-hours-range");
-// var sliderHoursRangeResults = document.getElementById("slider-hours-results");
-// var sliderDayRangeResults = document.getElementById("slider-day-results");
-// var sliderMonthResults = document.getElementById("slider-month-results");
-// var sliderYearResults = document.getElementById("slider-year-results");
+// let theData = [];
+// let fan = "Trident Pro 1.5X";
+// let provider = "Southern California Edison";
 
 
-// sliderHoursRange.oninput = function() {
-//     sliderHoursRangeResults.innerHTML = this.value;
+let theArray = [];
 
-//     let arr = [];
+function getData() {
+    fetch('allData.json')
+        .then((res) => res.json())
+        .then(data => {
+            // console.log(data);
+            data.Fans.map(theData => {
+                return theArray.push(theData.watts);
+            });
 
-//     let allData = () => {
-//         fetch('https://quietcoolsystems.com/sliderAPI/get-all-data.php')
-//             .then(res => res.json())
-//             .then(data => data.forEach(element => arr.push(element)))
-//         console.log(arr)
-//     }
+        }).catch(error => {
+            // console.log(error);
+        });
+}
 
-//     allData();
+getData();
 
-//     document.getElementById("fanWatts").innerHTML = arr[0];
-// }
+console.log(theArray);
