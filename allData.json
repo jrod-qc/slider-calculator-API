@@ -1,0 +1,1517 @@
+{
+    "Providers": [{
+            "id": "1",
+            "provider_name": "Southern California Edison",
+            "price_kw": 0.35,
+            "states": "California"
+        },
+        {
+            "id": "2",
+            "provider_name": "Moreno Valley Electrical Utility",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "3",
+            "provider_name": "Anza Electric Co-Op",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "4",
+            "provider_name": "Constellation Newenergy Inc",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "5",
+            "provider_name": "Rancho Mirage Energy Authority",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "6",
+            "provider_name": "Direct Energy",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "7",
+            "provider_name": "Sunline Energy",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "8",
+            "provider_name": "South California West Coast",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "9",
+            "provider_name": "San Diego Gas & Electric",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "10",
+            "provider_name": "Bear Valley Electric Services ",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "11",
+            "provider_name": "Enco Utility Services",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "12",
+            "provider_name": "Lancaster Choice Energy",
+            "price_kw": "0",
+            "states": "California"
+        },
+        {
+            "id": "13",
+            "provider_name": "Xcel Energy",
+            "price_kw": "0.35",
+            "states": "Colorado"
+        },
+        {
+            "id": "14",
+            "provider_name": "Alabama Power",
+            "price_kw": "",
+            "states": "Alabama"
+        },
+        {
+            "id": "15",
+            "provider_name": "PowerSouth Energy Cooperative, Inc.",
+            "price_kw": "",
+            "states": "Alabama"
+        },
+        {
+            "id": "16",
+            "provider_name": "Wiregrass Electric Cooperative",
+            "price_kw": "",
+            "states": "Alabama"
+        },
+        {
+            "id": "17",
+            "provider_name": "Golden Valley Electric Association",
+            "price_kw": "",
+            "states": "Alaska"
+        },
+        {
+            "id": "18",
+            "provider_name": "Chugach Electric Association",
+            "price_kw": "",
+            "states": "Alaska"
+        },
+        {
+            "id": "19",
+            "provider_name": "Copper Valley Electric Association",
+            "price_kw": "",
+            "states": "Alaska"
+        },
+        {
+            "id": "20",
+            "provider_name": "Municipal Light & Power",
+            "price_kw": "",
+            "states": "Alaska"
+        },
+        {
+            "id": "21",
+            "provider_name": "Kodlak Electric Association",
+            "price_kw": "",
+            "states": "Alaska"
+        },
+        {
+            "id": "22",
+            "provider_name": "Arizona Public Service (APS)",
+            "price_kw": "",
+            "states": "Arizona"
+        },
+        {
+            "id": "23",
+            "provider_name": "Salt River Project",
+            "price_kw": "",
+            "states": "Arizona"
+        },
+        {
+            "id": "24",
+            "provider_name": "Tuscon Electric Power",
+            "price_kw": "",
+            "states": "Arizona"
+        },
+        {
+            "id": "25",
+            "provider_name": "Entergy",
+            "price_kw": "",
+            "states": "Arkansas"
+        },
+        {
+            "id": "26",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "Connecticut"
+        },
+        {
+            "id": "27",
+            "provider_name": "United Illuminating",
+            "price_kw": "",
+            "states": "Connecticut"
+        },
+        {
+            "id": "28",
+            "provider_name": "Delaware Power & Light",
+            "price_kw": "",
+            "states": "Delaware"
+        },
+        {
+            "id": "29",
+            "provider_name": "(Subsidiary of Pepco Holdings)",
+            "price_kw": "",
+            "states": "Delaware"
+        },
+        {
+            "id": "30",
+            "provider_name": "Florida Power & Light",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "31",
+            "provider_name": "TECO",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "32",
+            "provider_name": "Progress Energy Florida",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "33",
+            "provider_name": "Lake Worth Utilities",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "34",
+            "provider_name": "Guld Power Co.",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "35",
+            "provider_name": "Kissimmee Utility Authoriy",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "36",
+            "provider_name": "Ocala Elecric",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "37",
+            "provider_name": "Florida Public Utility Company",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "38",
+            "provider_name": "Palm Peach",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "39",
+            "provider_name": "Florida Municipal Power Agency",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "40",
+            "provider_name": "LCEC",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "41",
+            "provider_name": "Georgia Power",
+            "price_kw": "",
+            "states": "Georgia"
+        },
+        {
+            "id": "42",
+            "provider_name": "Flint Energy",
+            "price_kw": "",
+            "states": "Florida"
+        },
+        {
+            "id": "43",
+            "provider_name": "Hawaiian Electric Industries (HECO)",
+            "price_kw": "",
+            "states": "Hawaii"
+        },
+        {
+            "id": "44",
+            "provider_name": "IDACORP",
+            "price_kw": "",
+            "states": "Idaho"
+        },
+        {
+            "id": "45",
+            "provider_name": "Clearwater Power",
+            "price_kw": "",
+            "states": "Idaho"
+        },
+        {
+            "id": "46",
+            "provider_name": "PacifiCorp ",
+            "price_kw": "",
+            "states": "Idaho"
+        },
+        {
+            "id": "47",
+            "provider_name": "Ameren",
+            "price_kw": "",
+            "states": "Illinois"
+        },
+        {
+            "id": "48",
+            "provider_name": "City Water",
+            "price_kw": "",
+            "states": "Illinois"
+        },
+        {
+            "id": "49",
+            "provider_name": "Light & Power",
+            "price_kw": "",
+            "states": "Illinois"
+        },
+        {
+            "id": "50",
+            "provider_name": "ComEd",
+            "price_kw": "",
+            "states": "Illinois"
+        },
+        {
+            "id": "51",
+            "provider_name": "Duke Energy",
+            "price_kw": "",
+            "states": "Indiana"
+        },
+        {
+            "id": "52",
+            "provider_name": "Cinergy Corporation",
+            "price_kw": "",
+            "states": "Indiana"
+        },
+        {
+            "id": "53",
+            "provider_name": "Indianapolis Power & Light",
+            "price_kw": "",
+            "states": "Indiana"
+        },
+        {
+            "id": "54",
+            "provider_name": "Northern Indiana Public Service Company",
+            "price_kw": "",
+            "states": "Indiana"
+        },
+        {
+            "id": "55",
+            "provider_name": "American Electric Power",
+            "price_kw": "",
+            "states": "Indiana"
+        },
+        {
+            "id": "56",
+            "provider_name": "MidAmerican Energy",
+            "price_kw": "",
+            "states": "Iowa"
+        },
+        {
+            "id": "57",
+            "provider_name": "Alliant Energy",
+            "price_kw": "",
+            "states": "Iowa"
+        },
+        {
+            "id": "58",
+            "provider_name": "Kansas City Power & Light",
+            "price_kw": "",
+            "states": "Kansas"
+        },
+        {
+            "id": "59",
+            "provider_name": "Westar Energy",
+            "price_kw": "",
+            "states": "Kansas"
+        },
+        {
+            "id": "60",
+            "provider_name": "Kansas City Board of Public Utilities",
+            "price_kw": "",
+            "states": "Kansas"
+        },
+        {
+            "id": "61",
+            "provider_name": "Kentucky Utilities",
+            "price_kw": "",
+            "states": "Kentucky"
+        },
+        {
+            "id": "62",
+            "provider_name": "Louisville Gas & Electric",
+            "price_kw": "",
+            "states": "Kentucky"
+        },
+        {
+            "id": "63",
+            "provider_name": "Cinergy Corporation",
+            "price_kw": "",
+            "states": "Kentucky"
+        },
+        {
+            "id": "64",
+            "provider_name": "American Electric Power",
+            "price_kw": "",
+            "states": "Kentucky"
+        },
+        {
+            "id": "65",
+            "provider_name": "Owensboro Municipal Utilities",
+            "price_kw": "",
+            "states": "Kentucky"
+        },
+        {
+            "id": "66",
+            "provider_name": "SWEPCO",
+            "price_kw": "",
+            "states": "Louisiana"
+        },
+        {
+            "id": "67",
+            "provider_name": "Entergy",
+            "price_kw": "",
+            "states": "Louisiana"
+        },
+        {
+            "id": "68",
+            "provider_name": "CLECO",
+            "price_kw": "",
+            "states": "Louisiana"
+        },
+        {
+            "id": "69",
+            "provider_name": "Central Maine Power",
+            "price_kw": "",
+            "states": "Maine"
+        },
+        {
+            "id": "70",
+            "provider_name": "Bangor Hydro Electric",
+            "price_kw": "",
+            "states": "Maine"
+        },
+        {
+            "id": "71",
+            "provider_name": "Baltimore Gas & Electric",
+            "price_kw": "",
+            "states": "Maryland"
+        },
+        {
+            "id": "72",
+            "provider_name": "PEPCO",
+            "price_kw": "",
+            "states": "Maryland"
+        },
+        {
+            "id": "73",
+            "provider_name": "Southern Maryland Electric Cooperative",
+            "price_kw": "",
+            "states": "Maryland"
+        },
+        {
+            "id": "74",
+            "provider_name": "Allegheny Power",
+            "price_kw": "",
+            "states": "Maryland"
+        },
+        {
+            "id": "75",
+            "provider_name": "Conectiv (Pepco Holdings, Inc.)",
+            "price_kw": "",
+            "states": "Maryland"
+        },
+        {
+            "id": "76",
+            "provider_name": "Choptank",
+            "price_kw": "",
+            "states": "Maryland"
+        },
+        {
+            "id": "77",
+            "provider_name": "NSTAR",
+            "price_kw": "",
+            "states": "Massachusetts"
+        },
+        {
+            "id": "78",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "Massachusetts"
+        },
+        {
+            "id": "79",
+            "provider_name": "National Grid",
+            "price_kw": "",
+            "states": "Massachusetts"
+        },
+        {
+            "id": "80",
+            "provider_name": "Massachusetts Electric",
+            "price_kw": "",
+            "states": "Massachusetts"
+        },
+        {
+            "id": "81",
+            "provider_name": "Berkshire Company (WMECO)",
+            "price_kw": "",
+            "states": "Massachusetts"
+        },
+        {
+            "id": "82",
+            "provider_name": "Nantucket Electric",
+            "price_kw": "",
+            "states": "Massachusetts"
+        },
+        {
+            "id": "83",
+            "provider_name": "Consumers Energy",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "84",
+            "provider_name": "DTE Energy (Detroit Edison)",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "85",
+            "provider_name": "We Energies",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "86",
+            "provider_name": "American Electric Power",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "87",
+            "provider_name": "Wyandotte Municipal Services",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "88",
+            "provider_name": "Holland Board of Public Works",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "89",
+            "provider_name": "Lansing Board of Water & Light",
+            "price_kw": "",
+            "states": "Michigan"
+        },
+        {
+            "id": "90",
+            "provider_name": "Entergy",
+            "price_kw": "",
+            "states": "Mississippi"
+        },
+        {
+            "id": "91",
+            "provider_name": "Southwest Mississippi Electric Power Association",
+            "price_kw": "",
+            "states": "Mississippi"
+        },
+        {
+            "id": "92",
+            "provider_name": "Magnolia Electric",
+            "price_kw": "",
+            "states": "Mississippi"
+        },
+        {
+            "id": "93",
+            "provider_name": "Mississippi Power Company",
+            "price_kw": "",
+            "states": "Mississippi"
+        },
+        {
+            "id": "94",
+            "provider_name": "Southern Company",
+            "price_kw": "",
+            "states": "Mississippi"
+        },
+        {
+            "id": "95",
+            "provider_name": "Xcel Energy",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "96",
+            "provider_name": "Great River Energy",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "97",
+            "provider_name": "Minnkota Power Cooperative",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "98",
+            "provider_name": "Basin Electric Power Cooperative",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "99",
+            "provider_name": "Dairyland Power Coop",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "100",
+            "provider_name": "East River Electric Power Co-op",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "101",
+            "provider_name": "Hutchinson Utilities Commission",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "102",
+            "provider_name": "Interstate Power and Light Company",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "103",
+            "provider_name": "L&O Power Co-op",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "104",
+            "provider_name": "Marshall Municipal Utilities",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "105",
+            "provider_name": "Minnesota Power",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "106",
+            "provider_name": "Minnetonka Power Co-op",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "107",
+            "provider_name": "Missouri River Energy",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "108",
+            "provider_name": "Otter Tail Power Company",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "109",
+            "provider_name": "Rochester Public Utilities Commission",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "110",
+            "provider_name": "Southern Minnesota Municipal Power Agency",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "111",
+            "provider_name": "Willmar Municipal Utilities",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "112",
+            "provider_name": "Freeborn-Mower Co-op Services",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "113",
+            "provider_name": "People's Co-op Tri-County Electric",
+            "price_kw": "",
+            "states": "Minnesota"
+        },
+        {
+            "id": "114",
+            "provider_name": "Ameren",
+            "price_kw": "",
+            "states": "Missouri"
+        },
+        {
+            "id": "115",
+            "provider_name": "Kansas City Power & Light",
+            "price_kw": "",
+            "states": "Missouri"
+        },
+        {
+            "id": "116",
+            "provider_name": "Empire District Electric",
+            "price_kw": "",
+            "states": "Missouri"
+        },
+        {
+            "id": "117",
+            "provider_name": "Aquila",
+            "price_kw": "",
+            "states": "Missouri"
+        },
+        {
+            "id": "118",
+            "provider_name": "City Utilities of Springfield",
+            "price_kw": "",
+            "states": "Missouri"
+        },
+        {
+            "id": "119",
+            "provider_name": "Independence Power and Light",
+            "price_kw": "",
+            "states": "Missouri"
+        },
+        {
+            "id": "120",
+            "provider_name": "Northwestern Energy",
+            "price_kw": "",
+            "states": "Montana"
+        },
+        {
+            "id": "121",
+            "provider_name": "Montana-Dakota Utilities",
+            "price_kw": "",
+            "states": "Montana"
+        },
+        {
+            "id": "122",
+            "provider_name": "Central Montana Electric Power Cooperative",
+            "price_kw": "",
+            "states": "Montana"
+        },
+        {
+            "id": "123",
+            "provider_name": "Montana Electric Cooperatives' Association",
+            "price_kw": "",
+            "states": "Montana"
+        },
+        {
+            "id": "124",
+            "provider_name": "Omaha Public Power District",
+            "price_kw": "",
+            "states": "Nebraska"
+        },
+        {
+            "id": "125",
+            "provider_name": "Nebraska Public Power District",
+            "price_kw": "",
+            "states": "Nebraska"
+        },
+        {
+            "id": "126",
+            "provider_name": "Nevada Power",
+            "price_kw": "",
+            "states": "Nevada"
+        },
+        {
+            "id": "127",
+            "provider_name": "Sierra Pacific Power",
+            "price_kw": "",
+            "states": "Nevada"
+        },
+        {
+            "id": "128",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "New Hampshire"
+        },
+        {
+            "id": "129",
+            "provider_name": "National Grid",
+            "price_kw": "",
+            "states": "New Hampshire"
+        },
+        {
+            "id": "130",
+            "provider_name": "Atlantic City Electric",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "131",
+            "provider_name": "Public Service Electric and Gas Company",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "132",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "133",
+            "provider_name": "First Energy",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "134",
+            "provider_name": "Jersey Central Power and Light Company",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "135",
+            "provider_name": "Vineland Municipal Electric Utility",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "136",
+            "provider_name": "Sussex Rural Electric Cooperative",
+            "price_kw": "",
+            "states": "New Jersey"
+        },
+        {
+            "id": "137",
+            "provider_name": "Public Service Company of New Mexico",
+            "price_kw": "",
+            "states": "New Mexico"
+        },
+        {
+            "id": "138",
+            "provider_name": "CH Energy Group",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "139",
+            "provider_name": "Central Hudson Gas & Electric",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "140",
+            "provider_name": "Consolidated Edison Company of New York",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "141",
+            "provider_name": "Long Island Power Authority",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "142",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "143",
+            "provider_name": "National Grid",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "144",
+            "provider_name": "New York State Electric & Gas",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "145",
+            "provider_name": "Rochester Gas & Electric",
+            "price_kw": "",
+            "states": "New York"
+        },
+        {
+            "id": "146",
+            "provider_name": "Xcel Energy",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "147",
+            "provider_name": "Otter Tail Power Company",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "148",
+            "provider_name": "Montana Dakota Utilities",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "149",
+            "provider_name": "Central Power Electric Cooperative",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "150",
+            "provider_name": "Miinkota Power Cooperative",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "151",
+            "provider_name": "Basin Electric Power Cooperative",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "152",
+            "provider_name": "Upper Missouri G&T Cooperative",
+            "price_kw": "",
+            "states": "North Dakota"
+        },
+        {
+            "id": "153",
+            "provider_name": "Cinergy Corporation",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "154",
+            "provider_name": "First Energy",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "155",
+            "provider_name": "Cleveland Electric Illuminating Company",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "156",
+            "provider_name": "Ohio Edison",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "157",
+            "provider_name": "Toledo Edison",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "158",
+            "provider_name": "American Electric Power",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "159",
+            "provider_name": "Dayton Power & Light",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "160",
+            "provider_name": "South Central Power Company",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "161",
+            "provider_name": "Consolidated Electric Cooperative",
+            "price_kw": "",
+            "states": "Ohio"
+        },
+        {
+            "id": "162",
+            "provider_name": "Oklahoma Gas & Electric",
+            "price_kw": "",
+            "states": "Oklahoma"
+        },
+        {
+            "id": "163",
+            "provider_name": "Public Service Company of Oklahoma",
+            "price_kw": "",
+            "states": "Oklahoma"
+        },
+        {
+            "id": "164",
+            "provider_name": "(Part of American Electric Power)",
+            "price_kw": "",
+            "states": "Oklahoma"
+        },
+        {
+            "id": "165",
+            "provider_name": "Columbia River Public Utility District",
+            "price_kw": "",
+            "states": "Oregon"
+        },
+        {
+            "id": "166",
+            "provider_name": "Eugene Water and Electric Board",
+            "price_kw": "",
+            "states": "Oregon"
+        },
+        {
+            "id": "167",
+            "provider_name": "PacifiCorp (Pacific Power)",
+            "price_kw": "",
+            "states": "Oregon"
+        },
+        {
+            "id": "168",
+            "provider_name": "Portland General Electric",
+            "price_kw": "",
+            "states": "Oregon"
+        },
+        {
+            "id": "169",
+            "provider_name": "West Oregon Electric Cooperative",
+            "price_kw": "",
+            "states": "Oregon"
+        },
+        {
+            "id": "170",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "Pennsylvania"
+        },
+        {
+            "id": "171",
+            "provider_name": "Rural Valley Electric Co.",
+            "price_kw": "",
+            "states": "Pennsylvania"
+        },
+        {
+            "id": "172",
+            "provider_name": "First Energy",
+            "price_kw": "",
+            "states": "Pennsylvania"
+        },
+        {
+            "id": "173",
+            "provider_name": "PECO",
+            "price_kw": "",
+            "states": "Pennsylvania"
+        },
+        {
+            "id": "174",
+            "provider_name": "Allegheny Power",
+            "price_kw": "",
+            "states": "Pennsylvania"
+        },
+        {
+            "id": "175",
+            "provider_name": "PPL",
+            "price_kw": "",
+            "states": "Pennsylvania"
+        },
+        {
+            "id": "176",
+            "provider_name": "Autoridad de Energia",
+            "price_kw": "",
+            "states": "Puerto Rico"
+        },
+        {
+            "id": "177",
+            "provider_name": "EcoElectrica",
+            "price_kw": "",
+            "states": "Puerto Rico"
+        },
+        {
+            "id": "178",
+            "provider_name": "Northeast Utilities",
+            "price_kw": "",
+            "states": "Rhode Island"
+        },
+        {
+            "id": "179",
+            "provider_name": "National Grid",
+            "price_kw": "",
+            "states": "Rhode Island"
+        },
+        {
+            "id": "180",
+            "provider_name": "Santee Cooper",
+            "price_kw": "",
+            "states": "South Carolina"
+        },
+        {
+            "id": "181",
+            "provider_name": "Duke Energy",
+            "price_kw": "",
+            "states": "South Carolina"
+        },
+        {
+            "id": "182",
+            "provider_name": "Central Electric Power Cooperative, Inc.",
+            "price_kw": "",
+            "states": "South Carolina"
+        },
+        {
+            "id": "183",
+            "provider_name": "Progress Energy Carolinas",
+            "price_kw": "",
+            "states": "South Carolina"
+        },
+        {
+            "id": "184",
+            "provider_name": "South Carolina Electric & Gas Company",
+            "price_kw": "",
+            "states": "South Carolina"
+        },
+        {
+            "id": "185",
+            "provider_name": "Xcel Energy",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "186",
+            "provider_name": "Otter Tail Power Company",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "187",
+            "provider_name": "Montana-Dakota Utilities",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "188",
+            "provider_name": "Northwestern Enerrgy",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "189",
+            "provider_name": "Black Hills Power",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "190",
+            "provider_name": "East River Electric Cooperative",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "191",
+            "provider_name": "Rushmore Eletric Cooperative",
+            "price_kw": "",
+            "states": "South Dakota"
+        },
+        {
+            "id": "192",
+            "provider_name": "Citizens Utilities Board",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "193",
+            "provider_name": "Electric Power Board",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "194",
+            "provider_name": "Knoxville Utilities Board",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "195",
+            "provider_name": "Kingsport Power (Appalachian Power)",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "196",
+            "provider_name": "Lenoir City Utilities Board",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "197",
+            "provider_name": "Memphis Light, Gas and Water",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "198",
+            "provider_name": "Nashville Electric Service",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "199",
+            "provider_name": "Tennessee Valley Authority",
+            "price_kw": "",
+            "states": "Tennessee"
+        },
+        {
+            "id": "200",
+            "provider_name": "Austin Energy",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "201",
+            "provider_name": "CPS Energy",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "202",
+            "provider_name": "dPi Energy",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "203",
+            "provider_name": "Electric Database Publishing",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "204",
+            "provider_name": "Garland Power and Light",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "205",
+            "provider_name": "Luminant",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "206",
+            "provider_name": "Reliant Energy",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "207",
+            "provider_name": "CenterPoint Energy",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "208",
+            "provider_name": "Texas Electric Service Company",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "209",
+            "provider_name": "American Electric Power",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "210",
+            "provider_name": "Lower Colorado River Authority",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "211",
+            "provider_name": "Oncor Electric (Formerly TXU)",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "212",
+            "provider_name": "Cosery Electric",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "213",
+            "provider_name": "Denton Municipal Electric",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "214",
+            "provider_name": "Entergy",
+            "price_kw": "",
+            "states": "Texas"
+        },
+        {
+            "id": "215",
+            "provider_name": "Intermountain Power Agency",
+            "price_kw": "",
+            "states": "Utah"
+        },
+        {
+            "id": "216",
+            "provider_name": "PacifiCorp (Rocky Mountain Power)",
+            "price_kw": "",
+            "states": "Utah"
+        },
+        {
+            "id": "217",
+            "provider_name": "Central Vermont Public Service",
+            "price_kw": "",
+            "states": "Vermont"
+        },
+        {
+            "id": "218",
+            "provider_name": "Green Mountain Power",
+            "price_kw": "",
+            "states": "Vermont"
+        },
+        {
+            "id": "219",
+            "provider_name": "Dominion Virginia Power",
+            "price_kw": "",
+            "states": "Virginia"
+        },
+        {
+            "id": "220",
+            "provider_name": "Rapahannock Electric Cooperative",
+            "price_kw": "",
+            "states": "Virginia"
+        },
+        {
+            "id": "221",
+            "provider_name": "Allegheny Power (subsidiary of Pepco Holdings, Inc.)",
+            "price_kw": "",
+            "states": "Virginia"
+        },
+        {
+            "id": "222",
+            "provider_name": "Conectiv",
+            "price_kw": "",
+            "states": "Virginia"
+        },
+        {
+            "id": "223",
+            "provider_name": "Appalachian Power",
+            "price_kw": "",
+            "states": "Virginia"
+        },
+        {
+            "id": "224",
+            "provider_name": "Virginia Power and Electric Company (VEPCO)",
+            "price_kw": "",
+            "states": "Virginia"
+        },
+        {
+            "id": "225",
+            "provider_name": "PacifiCorp (Pacific Power)",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "226",
+            "provider_name": "Puget Sound Energy",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "227",
+            "provider_name": "Seattle City Light",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "228",
+            "provider_name": "Snohomish County Public Utility District (PUD)",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "229",
+            "provider_name": "Mason County Public Utility District 3",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "230",
+            "provider_name": "Klickitat Public Utility District",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "231",
+            "provider_name": "Avista Utilities",
+            "price_kw": "",
+            "states": "Washington"
+        },
+        {
+            "id": "232",
+            "provider_name": "Allegheny Power",
+            "price_kw": "",
+            "states": "West Virginia"
+        },
+        {
+            "id": "233",
+            "provider_name": "Appalachian Power",
+            "price_kw": "",
+            "states": "West Virginia"
+        },
+        {
+            "id": "234",
+            "provider_name": "Wheeling Electric Power (AEP Ohio)",
+            "price_kw": "",
+            "states": "West Virginia"
+        },
+        {
+            "id": "235",
+            "provider_name": "We Energies",
+            "price_kw": "",
+            "states": "Wisconsin"
+        },
+        {
+            "id": "236",
+            "provider_name": "Wisconsin Public Service Corporation",
+            "price_kw": "",
+            "states": "Wisconsin"
+        },
+        {
+            "id": "237",
+            "provider_name": "Xcel Energy",
+            "price_kw": "",
+            "states": "Wisconsin"
+        },
+        {
+            "id": "238",
+            "provider_name": "Wisconsin Power & Light",
+            "price_kw": "",
+            "states": "Wisconsin"
+        },
+        {
+            "id": "239",
+            "provider_name": "PacifiCorp (Rocky Mountain Power",
+            "price_kw": "",
+            "states": "Wyoming"
+        },
+        {
+            "id": "240",
+            "provider_name": "Lower Valley Energy",
+            "price_kw": "",
+            "states": "Wyoming"
+        }
+    ],
+
+
+
+    "Fans": [{
+            "model": "Trident Pro 1.5X",
+            "watts": 115,
+            "name": "Trident"
+        },
+        {
+            "model": "Trident Pro 2.5X",
+            "watts": 244,
+            "name": "Trident"
+        },
+        {
+            "model": "Trident Pro 3.3X",
+            "watts": 323,
+            "name": "Trident"
+        },
+        {
+            "model": "Trident Pro 4.8X",
+            "watts": 555,
+            "name": "Trident"
+        },
+        {
+            "model": "Trident Pro 5.5X",
+            "watts": 632,
+            "name": "Trident"
+        },
+        {
+            "model": "Trident Pro 6.0X",
+            "watts": 777,
+            "name": "Trident"
+        },
+        {
+            "model": "Trident Pro 7.0X",
+            "watts": 1147,
+            "name": "Trident"
+        },
+        {
+            "model": "Stealth Pro 1.5X",
+            "watts": 67,
+            "name": "Stealth"
+        },
+        {
+            "model": "Stealth Pro 2.5X",
+            "watts": 157,
+            "name": "Stealth"
+        },
+        {
+            "model": "Stealth Pro 3.3X",
+            "watts": 264,
+            "name": "Stealth"
+        },
+        {
+            "model": "Stealth Pro 4.8X",
+            "watts": 408,
+            "name": "Stealth"
+        },
+        {
+            "model": "Stealth Pro 5.5X",
+            "watts": 490,
+            "name": "Stealth"
+        },
+        {
+            "model": "Stealth Pro 6.0X",
+            "watts": 462,
+            "name": "Stealth"
+        },
+        {
+            "model": "Stealth Pro 7.0X",
+            "watts": 725,
+            "name": "Stealth"
+        }
+    ]
+}
