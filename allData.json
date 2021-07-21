@@ -146,7 +146,7 @@
         {
             "id": "25",
             "provider_name": "Entergy",
-            "price_kw": "",
+            "price_kw": 0.45,
             "states": "Arkansas"
         },
         {

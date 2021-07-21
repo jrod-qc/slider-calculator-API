@@ -1,5 +1,4 @@
 // This is to get the States
-
 function getStatesData() {
     fetch('https://quietcoolsystems.com/sliderAPI/get-states.php')
         .then((res) => res.json())
@@ -15,14 +14,13 @@ function getStatesData() {
 
 getStatesData();
 
-
-
-
 // This is to get the Provider onChange
 
 function getProvidersDataOnChange() {
 
     var stateChoice = document.getElementById("select-state").value;
+
+    console.log(stateChoice);
 
     if (stateChoice === stateChoice) {
         document.getElementById("select-provider").style.display = "block";
@@ -33,8 +31,9 @@ function getProvidersDataOnChange() {
                 data.filter(function(provider) {
                     if (stateChoice === provider.states) {
                         output += `<option value="${provider.provider_name}">${provider.provider_name}</option>`;
-                        console.log(provider.price_kw);
+                        // console.log(provider.price_kw);
                     }
+
                 });
                 document.getElementById("select-provider").innerHTML = output;
             })
@@ -46,6 +45,8 @@ function getProvidersDataOnChange() {
 function getFanDataOnChange() {
 
     var fanChoice = document.getElementById("select-provider").value;
+
+    console.log(fanChoice);
 
     if (fanChoice) {
         document.getElementById("select-fan").style.display = "block";
@@ -64,12 +65,12 @@ function getFanDataOnChange() {
     }
 }
 
-
 // This is to get the Fan Models onChange
 
 function getFanModelOnChange() {
 
     var fanChoiceModel = document.getElementById("select-fan").value;
+    console.log(fanChoiceModel);
 
     if (fanChoiceModel === fanChoiceModel) {
         document.getElementById("select-fan-models").style.display = "block";
@@ -81,6 +82,7 @@ function getFanModelOnChange() {
 
                     if (fanChoiceModel === fanModel.name) {
                         output += `<option value="${fanModel.model}">${fanModel.model}</option>`;
+                        // console.log(fanChoiceModel);
                     }
                 });
                 document.getElementById("select-fan-models").innerHTML = output;
@@ -88,56 +90,47 @@ function getFanModelOnChange() {
     }
 }
 
-
-
-function sliderOnChange() {
-    var sliderHoursRange = document.getElementById("slider-hours-range");
-    var sliderHoursRangeResults = document.getElementById("slider-hours-results");
-    var sliderDayRangeResults = document.getElementById("slider-day-results");
-    var sliderMonthResults = document.getElementById("slider-month-results");
-    var sliderYearResults = document.getElementById("slider-year-results");
+function showSlider() {
     document.getElementById("slider-and-results-wrapper").style.display = "flex";
 
+    var fanModel = document.getElementById("select-fan-models").value;
+    console.log(fanModel);
 
-    var fanSelected = document.getElementById("select-fan").value;
-    var providerSelected = document.getElementById("select-provider").value;
+    let FanArray = [];
+    let ProviderArray = [];
 
-    var theData = [];
 
-    fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
-        .then(response => response.json())
-        .then(data => {
-            data.filter(fanData => {
-                if (fanSelected === fanData.model) {
-                    theData.push(fanData[watts]);
-                }
-            })
-        })
+    const grabData = async() => {
+        const response = await fetch('allData.json');
+        const data = await response.json();
+        FanArray = data.Fans.map(item => item);
+        ProviderArray = data.Providers.map(itemProv => itemProv);
+        var theFanResult = document.getElementById("select-fan-models").value;
+        var theProviderResult = document.getElementById("select-provider").value;
+        testRes(theFanResult, theProviderResult);
+    }
+    grabData();
 
-    console.log(theData);
+    const testRes = (fan, provider) => {
+        let fanResult = FanArray.filter(item => item.model === fan ? item : null);
+        let provResult = ProviderArray.filter(itemProv => itemProv.provider_name === provider ? itemProv : null);
 
+        var sliderHoursRange = document.getElementById("slider-hours-range");
+        var sliderHoursRangeResults = document.getElementById("slider-hours-results");
+        var sliderDayRangeResults = document.getElementById("slider-day-results");
+        var sliderMonthRangeResults = document.getElementById("slider-month-results");
+        var sliderYearRangeResults = document.getElementById("slider-year-results");
+
+        sliderHoursRange.oninput = function() {
+            sliderHoursRangeResults.innerHTML = this.value;
+            sliderDayRangeResults.innerHTML = "$" + Math.round(fanResult[0].watts / 1000 * this.value * provResult[0].price_kw * 100) / 100;
+            sliderMonthRangeResults.innerHTML = "$" + Math.round(fanResult[0].watts / 1000 * 30 * this.value * provResult[0].price_kw * 100) / 100;
+            sliderYearRangeResults.innerHTML = "$" + Math.round(fanResult[0].watts / 1000 * 365 * this.value * provResult[0].price_kw * 100) / 100;
+
+            console.log(sliderHoursRangeResults);
+            console.log(sliderDayRangeResults);
+            console.log(sliderMonthRangeResults);
+            console.log(sliderYearRangeResults);
+        }
+    }
 }
-
-
-
-
-
-
-
-// let arr = [];
-
-// let allData = () => {
-//     fetch('https://quietcoolsystems.com/sliderAPI/get-fan-models.php')
-//         .then(res => res.json())
-//         .then(data => {
-//             arr = data.filter(info => {
-//                 if (fanSelected === info.model) {
-//                     return info;
-//                 }
-//             })
-//         }).catch(err => {
-//             // console.log(err);
-//         })
-// };
-
-// allData();
