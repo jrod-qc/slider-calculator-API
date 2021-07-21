@@ -8,73 +8,73 @@
         {
             "id": "2",
             "provider_name": "Moreno Valley Electrical Utility",
-            "price_kw": "0",
+            "price_kw": 0.33,
             "states": "California"
         },
         {
             "id": "3",
             "provider_name": "Anza Electric Co-Op",
-            "price_kw": "0",
+            "price_kw": 0.18,
             "states": "California"
         },
         {
             "id": "4",
             "provider_name": "Constellation Newenergy Inc",
-            "price_kw": "0",
+            "price_kw": 0.105,
             "states": "California"
         },
         {
             "id": "5",
             "provider_name": "Rancho Mirage Energy Authority",
-            "price_kw": "0",
+            "price_kw": 0.064,
             "states": "California"
         },
         {
             "id": "6",
-            "provider_name": "Direct Energy",
+            "provider_name": "",
             "price_kw": "0",
             "states": "California"
         },
         {
             "id": "7",
             "provider_name": "Sunline Energy",
-            "price_kw": "0",
+            "price_kw": 0.52,
             "states": "California"
         },
         {
             "id": "8",
-            "provider_name": "South California West Coast",
+            "provider_name": "",
             "price_kw": "0",
             "states": "California"
         },
         {
             "id": "9",
             "provider_name": "San Diego Gas & Electric",
-            "price_kw": "0",
+            "price_kw": 0.33,
             "states": "California"
         },
         {
             "id": "10",
-            "provider_name": "Bear Valley Electric Services ",
-            "price_kw": "0",
+            "provider_name": "Bear Valley Electric Services",
+            "price_kw": 0.25,
             "states": "California"
         },
         {
             "id": "11",
-            "provider_name": "Enco Utility Services",
+            "provider_name": "",
             "price_kw": "0",
             "states": "California"
         },
         {
             "id": "12",
             "provider_name": "Lancaster Choice Energy",
-            "price_kw": "0",
+            "price_kw": 0.26,
             "states": "California"
         },
         {
             "id": "13",
             "provider_name": "Xcel Energy",
-            "price_kw": "0.35",
+            "price_kw": 0.084,
             "states": "Colorado"
         },
         {
