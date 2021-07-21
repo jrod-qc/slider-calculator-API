@@ -121,8 +121,9 @@ function showSlider() {
         var sliderMonthRangeResults = document.getElementById("slider-month-results");
         var sliderYearRangeResults = document.getElementById("slider-year-results");
 
+
         sliderHoursRange.oninput = function() {
-            sliderHoursRangeResults.innerHTML = this.value;
+            sliderHoursRangeResults.innerHTML = "Run Time: " + this.value + " Hours";
             sliderDayRangeResults.innerHTML = "$" + Math.round(fanResult[0].watts / 1000 * this.value * provResult[0].price_kw * 100) / 100;
             sliderMonthRangeResults.innerHTML = "$" + Math.round(fanResult[0].watts / 1000 * 30 * this.value * provResult[0].price_kw * 100) / 100;
             sliderYearRangeResults.innerHTML = "$" + Math.round(fanResult[0].watts / 1000 * 365 * this.value * provResult[0].price_kw * 100) / 100;

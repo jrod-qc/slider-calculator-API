@@ -14,15 +14,15 @@
     <div class="qc-slider">
         <div class="qc-slider-wrapper">
             <div class="qc-slider-box">
+                <div class="qc-image-logo">
+                    <img src="imgs/QuietCool Logo - No Tagline.webp" alt="" srcset="">
+                </div>
                 <select name="" id="select-state" onchange="getProvidersDataOnChange()">
                 </select>
-
                 <select name="" id="select-provider" onchange="getFanDataOnChange()">
                 </select>
-
                 <select name="" id="select-fan" onchange="getFanModelOnChange()">
                 </select>
-
                 <select name="" id="select-fan-models" onchange="showSlider()">
                 </select>
 
@@ -33,8 +33,8 @@
                     <div class="slider-box">
                         <!-- This is the Hours Section -->
                         <div class="hours-box">
-                            <h2 class="hours-title">Hours</h2>
-                            <h3 id="slider-hours-results"> 0</h3>
+                            <!-- <h2 class="hours-title">Hours</h2> -->
+                            <h3 id="slider-hours-results">Run Time: 0 Hours</h3>
                             <p id="fanWatts"></p>
                             <p id="providerPrice"></p>
                         </div>
@@ -43,8 +43,9 @@
                             <input type="range" name="slider-hours-range" id="slider-hours-range" min="0" max="12" value="0">
                         </div>
                     </div>
-
-
+                    <div class="price-title">
+                        <h2>The Average Amount You Spend</h2>
+                    </div>
                     <!-- This is the Day Results -->
                     <div class="day-box">
                         <h2 class="day-title">Day</h2>
@@ -61,16 +62,10 @@
                         <h3 id="slider-year-results">$0</h3>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
-    <div id="r">
-
-    </div>
     <script async src="script.js"></script>
-
 </body>
 
 </html>

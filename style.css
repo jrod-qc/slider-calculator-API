@@ -31,7 +31,18 @@ body {
     justify-content: center;
     align-items: flex-start;
     width: 80%;
+    max-width: 700px;
     margin: 0 auto;
+}
+
+.qc-image-logo {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.qc-image-logo>img {
+    width: 60%;
 }
 
 #select-state,
@@ -42,6 +53,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    font-weight: 700;
 }
 
 .the-box {
@@ -55,6 +67,7 @@ body {
     padding: 10px;
     font-size: 1.5em;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 #select-provider,
@@ -67,7 +80,7 @@ body {
 /* Slider Section */
 
 #slider-and-results-wrapper {
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -77,7 +90,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 250px;
+    max-width: 450px;
     height: auto;
 }
 
@@ -88,6 +101,17 @@ body {
     margin: 0;
     padding: 0;
     color: rgb(41, 41, 41);
+    font-size: 2em;
+}
+
+.price-title {
+    width: 100%;
+    padding: 10px;
+}
+
+.price-title>h2 {
+    text-align: center;
+    font-size: 2.5em;
 }
 
 .day-box,
@@ -103,6 +127,7 @@ body {
     margin: 0;
     text-align: center;
     color: rgb(41, 41, 41);
+    font-size: 2.5em;
 }
 
 #slider-day-results,
@@ -113,6 +138,7 @@ body {
     margin: 0 auto;
     text-align: center;
     color: rgb(41, 41, 41);
+    font-size: 2em;
 }
 
 .slider-box {
@@ -122,7 +148,7 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 5% 0;
+    padding: 5% 0 0 0;
 }
 
 .slider-wrapper {
@@ -190,4 +216,82 @@ input[type="range"]::-webkit-slider-thumb::before {
     left: 0;
     width: 100%;
     color: red;
+}
+
+@media only screen and (max-width:768px) {
+    .hours-title,
+    #slider-hours-results,
+    .day-title,
+    .month-title,
+    .year-title,
+    #slider-day-results,
+    #slider-month-results,
+    #slider-year-results,
+    #select-state,
+    #select-provider,
+    #select-stealth-model,
+    #select-provider,
+    #select-fan,
+    #select-fan-models,
+    .price-title>h2 {
+        font-size: 1.5em;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+}
+
+@media only screen and (max-width:715px) {
+    .hours-title,
+    #slider-hours-results,
+    .day-title,
+    .month-title,
+    .year-title,
+    #slider-day-results,
+    #slider-month-results,
+    #slider-year-results,
+    #select-state,
+    #select-provider,
+    #select-stealth-model,
+    #select-provider,
+    #select-fan,
+    #select-fan-models,
+    .price-title>h2 {
+        font-size: 1.2em;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .hours-title,
+    #slider-hours-results,
+    .day-title,
+    .month-title,
+    .year-title,
+    #slider-day-results,
+    #slider-month-results,
+    #slider-year-results,
+    #select-state,
+    #select-provider,
+    #select-stealth-model,
+    #select-provider,
+    #select-fan,
+    #select-fan-models,
+    .price-title>h2 {
+        font-size: 1em;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    .qc-slider-box>select {
+        width: 100%;
+    }
+    .qc-image-logo {
+        padding: 15px 0;
+    }
+    .qc-image-logo>img {
+        width: 90%;
+    }
 }
