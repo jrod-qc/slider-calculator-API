@@ -7,64 +7,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script> -->
 </head>
 
 <body>
-    <div class="qc-slider">
-        <div class="qc-slider-wrapper">
-            <div class="qc-slider-box">
-                <div class="qc-image-logo">
-                    <img src="imgs/QuietCool Logo - No Tagline.webp" alt="" srcset="">
-                </div>
-                <select name="" id="select-state" onchange="getProvidersDataOnChange()">
-                </select>
-                <select name="" id="select-provider" onchange="getFanDataOnChange()">
-                </select>
-                <select name="" id="select-fan" onchange="getFanModelOnChange()">
-                </select>
-                <select name="" id="select-fan-models" onchange="showSlider()">
-                </select>
 
-                <!-- This is the Slider Section -->
+    <div class="sliders-wrapper">
+        <!-- This is the QC Slider  -->
+        <div class="qc-slider">
+            <div id="qc-slider-wrapper">
+                <div class="qc-slider-box">
+                    <div class="qc-image-logo">
+                        <img src="imgs/QuietCool Logo - No Tagline.webp" alt="" srcset="">
+                    </div>
+                    <select name="" id="select-state" onchange="getProvidersDataOnChange()">
+            </select>
+                    <select name="" id="select-provider" onchange="getFanDataOnChange()">
+            </select>
+                    <select name="" id="select-fan" onchange="getFanModelOnChange()">
+            </select>
+                    <select name="" id="select-fan-models" onchange="showSlider()">
+            </select>
 
-                <div id="slider-and-results-wrapper">
-                    <!-- This is the Slider -->
-                    <div class="slider-box">
-                        <!-- This is the Hours Section -->
-                        <div class="hours-box">
-                            <!-- <h2 class="hours-title">Hours</h2> -->
-                            <h3 id="slider-hours-results">Run Time: 0 Hours</h3>
-                            <p id="fanWatts"></p>
-                            <p id="providerPrice"></p>
+                    <!-- This is the Slider Section -->
+
+                    <div id="slider-and-results-wrapper">
+                        <!-- This is the Slider -->
+                        <div class="slider-box">
+                            <!-- This is the Hours Section -->
+                            <div class="hours-box">
+                                <!-- <h2 class="hours-title">Hours</h2> -->
+                                <h3 id="slider-hours-results">Run Time: 0 Hours</h3>
+                                <p id="fanWatts"></p>
+                                <p id="providerPrice"></p>
+                            </div>
+                            <!-- This is the Slider Input -->
+                            <div class="slider-wrapper">
+                                <input type="range" name="slider-hours-range" id="slider-hours-range" min="0" max="12" value="0">
+                            </div>
                         </div>
-                        <!-- This is the Slider Input -->
-                        <div class="slider-wrapper">
-                            <input type="range" name="slider-hours-range" id="slider-hours-range" min="0" max="12" value="0">
+                        <div class="price-title">
+                            <h2>The Average Amount You Spend</h2>
                         </div>
-                    </div>
-                    <div class="price-title">
-                        <h2>The Average Amount You Spend</h2>
-                    </div>
-                    <!-- This is the Day Results -->
-                    <div class="day-box">
-                        <h2 class="day-title">Day</h2>
-                        <h3 id="slider-day-results">$0</h3>
-                    </div>
-                    <!-- This is the Month Results -->
-                    <div class="month-box">
-                        <h2 class="month-title">Month</h2>
-                        <h3 id="slider-month-results">$0</h3>
-                    </div>
-                    <!-- This is the Year Results -->
-                    <div class="year-box">
-                        <h2 class="year-title">Year</h2>
-                        <h3 id="slider-year-results">$0</h3>
+                        <!-- This is the Day Results -->
+                        <div class="day-box">
+                            <h2 class="day-title">Day</h2>
+                            <h3 id="slider-day-results">$0</h3>
+                        </div>
+                        <!-- This is the Month Results -->
+                        <div class="month-box">
+                            <h2 class="month-title">Month</h2>
+                            <h3 id="slider-month-results">$0</h3>
+                        </div>
+                        <!-- This is the Year Results -->
+                        <div class="year-box">
+                            <h2 class="year-title">Year</h2>
+                            <h3 id="slider-year-results">$0</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <!-- This is the AC Slider  -->
+        <div id="ac-slider">
+            <div id="ac-slider-wrapper">
+                <div class="ac-slider-box">
+                    <div class="ac-image-logo">
+                        <img src="imgs/QuietCool Logo - No Tagline.webp" alt="" srcset="">
+                    </div>
+                    <select name="" id="select-ac-unit" onchange="getACUnits()">
+            </select>
+
+                    <!-- This is the Slider Section -->
+
+                    <div id="ac-slider-and-results-wrapper">
+                        <!-- This is the Slider -->
+                        <div class="ac-slider-box-2">
+                            <!-- This is the Hours Section -->
+                            <div class="ac-hours-box">
+                                <!-- <h2 class="hours-title">Hours</h2> -->
+                                <h3 id="ac-slider-hours-results">Run Time: 0 Hours</h3>
+                                <p id="ac-fanWatts"></p>
+                                <p id="ac-providerPrice"></p>
+                            </div>
+                            <!-- This is the Slider Input -->
+                            <div class="ac-slider-wrapper">
+                                <input type="range" name="slider-hours-range" id="ac-slider-hours-range" min="0" max="12" value="0">
+                            </div>
+                        </div>
+                        <div class="ac-price-title">
+                            <h2>The Average Amount You Spend</h2>
+                        </div>
+                        <!-- This is the Day Results -->
+                        <div class="ac-day-box">
+                            <h2 class="ac-day-title">Day</h2>
+                            <h3 id="ac-slider-day-results">$0</h3>
+                        </div>
+                        <!-- This is the Month Results -->
+                        <div class="ac-month-box">
+                            <h2 class="ac-month-title">Month</h2>
+                            <h3 id="ac-slider-month-results">$0</h3>
+                        </div>
+                        <!-- This is the Year Results -->
+                        <div class="ac-year-box">
+                            <h2 class="ac-year-title">Year</h2>
+                            <h3 id="ac-slider-year-results">$0</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+
+
+
     <script async src="script.js"></script>
 </body>
 

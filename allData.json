@@ -1513,5 +1513,35 @@
             "watts": 725,
             "name": "Stealth"
         }
+    ],
+
+    "ACunits": [{
+            "name": "Central Air Conditioner",
+            "watts": 3500
+        },
+        {
+            "name": "Ductless Mini-Split",
+            "watts": 800
+        },
+        {
+            "name": "Window air conditioner (Small)",
+            "watts": 500
+        },
+        {
+            "name": "Window air conditioner (Mid)",
+            "watts": 900
+        },
+        {
+            "name": "Window air conditioner (Large)",
+            "watts": 1500
+        },
+        {
+            "name": "Portable Air Conditioner",
+            "watts": 1800
+        },
+        {
+            "name": "Floor Mounted Air Conditioner",
+            "watts": 2500
+        }
     ]
 }
