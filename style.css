@@ -4,6 +4,56 @@ body {
     font-family: sans-serif;
 }
 
+
+/* This is the Select Section */
+
+.select {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .select>select {
+    width: 50%;
+    padding: 10px;
+    font-size: 1.2em;
+    
+} */
+
+select {
+    width: 50%;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: rgb(210, 23, 23) url(http://tuckeralbin.com/wp-content/uploads/intense-cache/icons/plugin/font-awesome/angle-double-down.svg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 98% 50%;
+    background-blend-mode: overlay;
+    color: #fff;
+}
+
+select:active {
+    background-color: white;
+}
+
+
+/* CAUTION: IE hackery ahead */
+
+select::-ms-expand {
+    display: none;
+    /* remove default arrow on ie10 and ie11 */
+}
+
+
+/* QC Slider  */
+
 .sliders-wrapper {
     width: 100%;
     display: flex;
@@ -12,11 +62,8 @@ body {
     align-items: center;
 }
 
-
-/* QC Slider  */
-
 .qc-slider {
-    width: 50%;
+    width: 45%;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +88,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    width: 80%;
+    width: 90%;
     max-width: 700px;
     margin: 0 auto;
 }
@@ -57,14 +104,14 @@ body {
 }
 
 #select-state,
-#select-provider,
-#select-stealth-model {
+#select-provider {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 50%;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .the-box {
@@ -278,7 +325,7 @@ input[type="range"]::-webkit-slider-thumb::before {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 80%;
     font-weight: 700;
 }
 
@@ -291,7 +338,6 @@ input[type="range"]::-webkit-slider-thumb::before {
 .ac-slider-box>select {
     width: 50%;
     padding: 10px;
-    font-size: 1.5em;
     margin-bottom: 10px;
     font-weight: 700;
 }
@@ -411,7 +457,7 @@ input[type="range"]::-webkit-slider-runnable-track {
     border: 0px solid rgba(0, 0, 0, 0);
 }
 
-input[type="range"]::-webkit-slider-thumb {
+.ac-slider-wrapper>input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     cursor: pointer;
     height: 40px;
@@ -423,7 +469,7 @@ input[type="range"]::-webkit-slider-thumb {
     z-index: 2;
     box-shadow: 1.1px 1.1px 6.8px rgba(0, 0, 0, 0), 0px 0px 1.1px rgba(13, 13, 13, 0);
     border: 0px solid #000000;
-    background: url(imgs/quietcool-icon-2020-RGB-V3-red.png) #ffffff;
+    background: url(imgs/ac-icon.png) #ffffff;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;

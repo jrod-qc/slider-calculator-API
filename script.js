@@ -3,7 +3,7 @@ function getStatesData() {
     fetch('https://quietcoolsystems.com/sliderAPI/get-states.php')
         .then((res) => res.json())
         .then((statesData) => {
-            let statesOutput = '<option class="top-option">Please Select a State</option>';
+            let statesOutput = '<option value=" " class="top-option">Please Select a State</option>';
             statesData.forEach(function(states) {
                 statesOutput += `<option value="${states.state}">${states.state}</option>`;
             });
@@ -17,7 +17,7 @@ getStatesData();
 // This is to get the Provider onChange
 
 function getProvidersDataOnChange() {
-
+    // document.getElementById(".top-option").style("display", "none");
     var stateChoice = document.getElementById("select-state").value;
     console.log(stateChoice);
 
